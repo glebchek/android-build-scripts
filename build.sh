@@ -5,7 +5,7 @@ podman run \
     -e "SIGNATURE_SPOOFING=restricted" \
     -e "CUSTOM_PACKAGES=GmsCore GsfProxy FakeStore MozillaNlpBackend NominatimNlpBackend com.google.android.maps.jar FDroid FDroidPrivilegedExtension " \
     -e "INCLUDE_PROPRIETARY=false" \
-    -e "CCACHE_SIZE=15G" \
+    -e "CCACHE_SIZE=10G" \
     -e "UNIFIEDNLP_SUPPORT=true" \
     -v "`pwd`/src:/srv/src" \
     -v "`pwd`/zips:/srv/zips" \
@@ -13,4 +13,4 @@ podman run \
     -v "`pwd`/ccache:/srv/ccache" \
     -v "`pwd`/keys:/srv/keys" \
     -v "`pwd`/manifests:/srv/local_manifests" \
-    lineage-microg:17.1
+    lineageos4microg/docker-lineage-cicd
