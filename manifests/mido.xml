@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="zeelog/android_device_xiaomi_mido" path="device/xiaomi/mido" remote="github" />
-  <project name="zeelog/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" />
-  <project name="KudProject/kernel_xiaomi_msm8953-3.18" path="kernel/xiaomi/mido" remote="github"/> 
-<!--  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />-->
+  <project name="zeelog/android_device_xiaomi_mido" path="device/xiaomi/mido" remote="github"/>
+  <project name="zeelog/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github"/>
+  <project name="zeelog/android_kernel_xiaomi_mido" path="kernel/xiaomi/mido" remote="github"/>
 </manifest>
