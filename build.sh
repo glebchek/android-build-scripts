@@ -1,13 +1,11 @@
 podman run \
     -d \
-    -e "BRANCH_NAME=lineage-18.1" \
-    -e "DEVICE_LIST=mido" \
+    -e "BRANCH_NAME=lineage-20.0" \
+    -e "DEVICE_LIST=pstar" \
     -e "SIGN_BUILDS=true" \
+    -e "WITH_GMS=true" \
     -e "SIGNATURE_SPOOFING=restricted" \
-    -e "CUSTOM_PACKAGES=GmsCore GsfProxy FakeStore MozillaNlpBackend NominatimNlpBackend com.google.android.maps.jar FDroid FDroidPrivilegedExtension additional_repos.xml" \
-    -e "INCLUDE_PROPRIETARY=false" \
     -e "CCACHE_SIZE=5G" \
-    -e "UNIFIEDNLP_SUPPORT=true" \
     -v "`pwd`/src:/srv/src" \
     -v "`pwd`/zips:/srv/zips" \
     -v "`pwd`/logs:/srv/logs" \

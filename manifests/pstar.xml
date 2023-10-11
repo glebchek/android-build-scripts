@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="glebchek/android_kernel_motorola_sm8250_kernelsu" path="kernel/motorola/sm8250" remote="github"/>
+</manifest>
