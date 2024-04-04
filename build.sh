@@ -1,6 +1,6 @@
 podman run \
     -d \
-    -e "BRANCH_NAME=lineage-20.0" \
+    -e "BRANCH_NAME=lineage-21" \
     -e "DEVICE_LIST=pstar" \
     -e "SIGN_BUILDS=true" \
     -e "WITH_GMS=true" \
